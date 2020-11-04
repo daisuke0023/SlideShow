@@ -45,11 +45,11 @@
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gi9-V0-7MH"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y0f-AL-j2J">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y0f-AL-j2J">
                                 <rect key="frame" x="36" y="94" width="342" height="652"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="LKt-0i-QBK" appends="YES" id="ovD-hX-UnM"/>
+                                    <outletCollection property="gestureRecognizers" destination="LKt-0i-QBK" appends="YES" id="IdE-aw-m2q"/>
                                 </connections>
                             </imageView>
                         </subviews>
@@ -75,8 +75,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="LKt-0i-QBK">
                     <connections>
-                        <action selector="unwind:" destination="BYZ-38-t0r" id="zCT-Q7-Lrx"/>
-                        <segue destination="2M1-Ej-EDg" kind="show" id="yZ2-O6-BAM"/>
+                        <segue destination="2M1-Ej-EDg" kind="show" id="d5m-zQ-H1m"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -100,7 +99,7 @@
                                     <segue destination="NAw-M6-0GU" kind="unwind" unwindAction="unwind:" id="lEu-bF-8IM"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K4p-W7-Enb">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K4p-W7-Enb">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="730"/>
                             </imageView>
                         </subviews>
